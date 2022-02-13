@@ -1,10 +1,9 @@
 # NoSql Social Network API
 
-An API for a social network web application where users can share their thoughts, react to friends thoughts, and create a friend list. This application uses Express, Node, MongoDB and Mongoose to allow users, thoughts, friend lists and thought reactions to be created, updated and deleted. 
+An API for a social network web application where users can share their thoughts, react to friends thoughts, and create a friend list. This app uses Express, Node, MongoDB and Mongoose to allow users, thoughts, friend lists and thought reactions to be created, updated and deleted with ease in a very user friendly rest api approach. 
 
-## Purpose
-
-API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. 
+## Walkthrough video
+Link to wallkthrough video => https://youtu.be/-7EU4YMjXTc
 
 ## Description
 
@@ -26,15 +25,13 @@ WHEN I test API POST and DELETE routes in Insomnia Core
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
 ```
-## Screenshot
-
 
 ## Installation
 
 ```
 npm install
-node server.js(npm start)
-mongod
+npm start
+make sure mongodb service is running
 
 ```
 
